@@ -15,7 +15,7 @@ $ xcode-select --install
 ポップアップが出てくるので"インストール"を選択し利用規約に同意
 4. インストールが完了したら下記コマンドを実行  
 ```
-$ curl -L https://raw.githubusercontent.com/redgosho/dotfiles/master/homebrew_install.sh | bash
+$ curl -L https://raw.githubusercontent.com/TakafumiKurai/dotfiles/master/homebrew_install.sh | bash
 ```
 homebrewがインストールされる。
 Homebrewの導入は以上。
@@ -30,7 +30,7 @@ Homebrewの導入は以上。
 * tmux
 が設定される。
 ```
-$ curl -L https://raw.githubusercontent.com/redgosho/dotfiles/master/install.sh | bash
+$ curl -L https://raw.githubusercontent.com/TakafumiKurai/dotfiles/master/install.sh | bash
 ```
 
 2. パッケージインストール  
@@ -51,7 +51,7 @@ Fishなどの追加設定をしたい場合は`.dotfiles`のルートディレ�
 #### 1:dotfilesの入手
 下記コマンドを叩き、ローカルにdotfilesを設置する。
 ```
-$ curl -L https://raw.githubusercontent.com/redgosho/dotfiles/master/install.sh | bash
+$ curl -L https://raw.githubusercontent.com/TakafumiKurai/dotfiles/master/install.sh | bash
 ```
 #### 2:aptパッケージをインストール
 多分makeが入っていなくてコケたりするので、最低限のaptパッケージをインストールする。  
@@ -71,7 +71,7 @@ $ exec $SHELL -l
 #### 3:Homebrewの導入
 次にHomebrewをインストールしていく。下記のコードを実行する。
 ```
-$ curl -L https://raw.githubusercontent.com/redgosho/dotfiles/master/homebrew_install.sh | bash
+$ curl -L https://raw.githubusercontent.com/TakafumiKurai/dotfiles/master/homebrew_install.sh | bash
 ```
 
 次にHomebrewのパッケージをインストールしていく。インストールパッケージは`/config/homebrew/*`に記載
